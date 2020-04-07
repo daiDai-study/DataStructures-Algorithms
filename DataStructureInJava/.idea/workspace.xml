@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/LinearList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../读书笔记/数据结构与算法常见术语的中英文对照.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/数据结构与算法常见术语的中英文对照.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -181,6 +186,7 @@
       <workItem from="1585892189941" duration="9122000" />
       <workItem from="1585903577796" duration="2588000" />
       <workItem from="1586220479536" duration="166000" />
+      <workItem from="1586251717502" duration="2171000" />
     </task>
     <servers />
   </component>
