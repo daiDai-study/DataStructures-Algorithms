@@ -1,4 +1,4 @@
-package org.daistudy.Array;
+package org.daistudy.array;
 
 import javax.naming.OperationNotSupportedException;
 import java.util.Arrays;

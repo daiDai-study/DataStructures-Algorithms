@@ -1,4 +1,4 @@
-package org.daistudy.Array;
+package org.daistudy.array;
 
 import org.junit.jupiter.api.*;
 

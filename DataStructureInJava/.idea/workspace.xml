@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/LinearList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithRear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithoutRear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/linearlist/LinearListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/Array/IntegerArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/array/IntegerArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/Common/IntegerNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/LinearList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/LinearList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/Array/IntegerArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/array/IntegerArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/Array/IntegerArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/Array/IntegerArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/Array/IntegerArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/Array/IntegerArrayTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../读书笔记/数据结构与算法常见术语的中英文对照.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/数据结构与算法常见术语的中英文对照.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +26,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="226" />
+    <option name="myElementSize" value="303" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -34,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -71,6 +82,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.daistudy.linearlist" />
       <recent name="org.daistudy.Array" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -89,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in DataStructureInJava">
+  <component name="RunManager" selected="JUnit.LinearListTest.testSinglyLinkedListWithRearInteger">
     <configuration name="All in DataStructureInJava" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="DataStructureInJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,64 +110,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinearListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.Array.*" />
+          <option name="PATTERN" value="org.daistudy.linearlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.Array" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.Array.IntegerArrayTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegerArrayTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.Array" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.Array.IntegerArrayTest" />
-      <option name="METHOD_NAME" value="find" />
+      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTest.init" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinearListTest.testGetNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.Array.*" />
+          <option name="PATTERN" value="org.daistudy.linearlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.Array" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.Array.IntegerArrayTest" />
-      <option name="METHOD_NAME" value="init" />
+      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testGetNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerArrayTest.updateFirstLeft" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinearListTest.testSequenatialListInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.Array.*" />
+          <option name="PATTERN" value="org.daistudy.linearlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.Array" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.Array.IntegerArrayTest" />
-      <option name="METHOD_NAME" value="updateFirstLeft" />
+      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testSequenatialListInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearListTest.testSinglyLinkedListInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.linearlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testSinglyLinkedListInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearListTest.testSinglyLinkedListWithRearInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.linearlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testSinglyLinkedListWithRearInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,10 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegerArrayTest.init" />
-        <item itemvalue="JUnit.IntegerArrayTest" />
-        <item itemvalue="JUnit.IntegerArrayTest.find" />
-        <item itemvalue="JUnit.IntegerArrayTest.updateFirstLeft" />
+        <item itemvalue="JUnit.LinearListTest.testSinglyLinkedListWithRearInteger" />
+        <item itemvalue="JUnit.LinearListTest.testSinglyLinkedListInteger" />
+        <item itemvalue="JUnit.LinearListTest.testGetNode" />
+        <item itemvalue="JUnit.LinearListTest.testSequenatialListInteger" />
+        <item itemvalue="JUnit.LinearListTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +216,10 @@
       <workItem from="1585892189941" duration="9122000" />
       <workItem from="1585903577796" duration="2588000" />
       <workItem from="1586220479536" duration="166000" />
-      <workItem from="1586251717502" duration="2171000" />
+      <workItem from="1586251717502" duration="2413000" />
+      <workItem from="1586324598650" duration="3000" />
+      <workItem from="1586324624435" duration="13158000" />
+      <workItem from="1586396841782" duration="13723000" />
     </task>
     <servers />
   </component>
@@ -207,6 +240,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DataStructureInJava$All_in_DataStructureInJava.ic" NAME="All in DataStructureInJava Coverage Results" MODIFIED="1585901558063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/DataStructureInJava$All_in_DataStructureInJava.ic" NAME="All in DataStructureInJava Coverage Results" MODIFIED="1586414938220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
