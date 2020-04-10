@@ -2,27 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/SequenatialStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/stack/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/application/stack/FourArithmeticExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/SequenatialSharedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/application/stack/FourArithmeticExpressionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructureInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithmInJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithmInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithmInJava.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithRear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithoutRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithoutRear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/common/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/common/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SequenatialList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SequenatialList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithRear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithRear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithoutRear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithoutRear.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/LinearList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/LinearList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SequenatialList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithRear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithoutRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithoutRear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/SequenatialStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/SequenatialStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/linearlist/LinearListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/linearlist/LinearListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/stack/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DataStructureInJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/common/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/common/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/LinearList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SequenatialList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithRear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithoutRear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/stack/LinkedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/stack/SequenatialStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/stack/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DataStructureInJava.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/linearlist/LinearListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/stack/StackTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +45,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="303" />
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="382" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -79,14 +95,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="D:/workspace/bitbucket/TDAS/tdas-backend-master@52931cf9ab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.daistudy.application.stack" />
       <recent name="org.daistudy.stack" />
       <recent name="org.daistudy.linearlist" />
       <recent name="org.daistudy.Array" />
@@ -107,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest.testLinkedStack">
+  <component name="RunManager" selected="JUnit.StackTest.testSequenatialSharedStack">
     <configuration name="All in DataStructureInJava" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -116,7 +133,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBasisTest.testSetNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FourArithmeticExpressionTest.calculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.application.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.application.stack" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.application.stack.FourArithmeticExpressionTest" />
+      <option name="METHOD_NAME" value="calculate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourArithmeticExpressionTest.infix2Suffix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.application.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.application.stack" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.application.stack.FourArithmeticExpressionTest" />
+      <option name="METHOD_NAME" value="infix2Suffix" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaBasisTest.testSetInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
@@ -126,55 +175,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.daistudy.test" />
       <option name="MAIN_CLASS_NAME" value="org.daistudy.test.JavaBasisTest" />
-      <option name="METHOD_NAME" value="testSetNull" />
+      <option name="METHOD_NAME" value="testSetInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearListTest.testSinglyLinkedListInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StackTest.testSequenatialSharedStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.linearlist.*" />
+          <option name="PATTERN" value="org.daistudy.datastructure.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
-      <option name="METHOD_NAME" value="testSinglyLinkedListInteger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearListTest.testSinglyLinkedListWithRearInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.linearlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.linearlist" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.linearlist.LinearListTest" />
-      <option name="METHOD_NAME" value="testSinglyLinkedListWithRearInteger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackTest.testLinkedStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.stack" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.stack.StackTest" />
-      <option name="METHOD_NAME" value="testLinkedStack" />
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.stack" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.stack.StackTest" />
+      <option name="METHOD_NAME" value="testSequenatialSharedStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,72 +201,25 @@
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.stack.*" />
+          <option name="PATTERN" value="org.daistudy.datastructure.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.stack" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.stack.StackTest" />
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.stack" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.stack.StackTest" />
       <option name="METHOD_NAME" value="testSequenatialStack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StackTest.testLinkedStack" />
+        <item itemvalue="JUnit.StackTest.testSequenatialSharedStack" />
+        <item itemvalue="JUnit.JavaBasisTest.testSetInteger" />
         <item itemvalue="JUnit.StackTest.testSequenatialStack" />
-        <item itemvalue="JUnit.JavaBasisTest.testSetNull" />
-        <item itemvalue="JUnit.LinearListTest.testSinglyLinkedListWithRearInteger" />
-        <item itemvalue="JUnit.LinearListTest.testSinglyLinkedListInteger" />
+        <item itemvalue="JUnit.FourArithmeticExpressionTest.calculate" />
+        <item itemvalue="JUnit.FourArithmeticExpressionTest.infix2Suffix" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +245,7 @@
       <workItem from="1586396841782" duration="14769000" />
       <workItem from="1586424447284" duration="602000" />
       <workItem from="1586485283184" duration="7787000" />
+      <workItem from="1586500730075" duration="13158000" />
     </task>
     <servers />
   </component>
@@ -295,6 +266,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructureAndAlgorithmInJava$All_in_DataStructureInJava.ic" NAME="All in DataStructureInJava Coverage Results" MODIFIED="1586500814075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/DataStructureInJava$All_in_DataStructureInJava.ic" NAME="All in DataStructureInJava Coverage Results" MODIFIED="1586414938220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

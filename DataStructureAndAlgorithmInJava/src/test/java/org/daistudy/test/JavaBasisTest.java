@@ -16,4 +16,12 @@ public class JavaBasisTest {
         integer = null;
         assertEquals(200, integerCopy);
     }
+
+    @DisplayName("Object对象强制转型，并设置")
+    @Test
+    void testSetInteger(){
+        Object[] integers = new Object[2];
+        integers[0] = 2;
+        assertEquals(2, integers[0]);
+    }
 }
