@@ -5,7 +5,7 @@ import org.daistudy.common.Node;
 import java.util.Objects;
 
 public class LinkedStack<T> implements Stack<T> {
-    private Node<T> top;
+    private Node<T> top; // top就是head
 
     private int length;
 
