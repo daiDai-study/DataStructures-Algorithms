@@ -28,7 +28,7 @@ class StackTest {
     @DisplayName("共享栈")
     @Test
     void testSequenatialSharedStack(){
-        SequenatialSharedStack<Integer> sharedStack = new SequenatialSharedStack(Integer.class, 10);
+        SequenatialSharedStack<Integer> sharedStack = new SequenatialSharedStack(10);
         assertTrue(sharedStack.isEmpty(1));
         assertTrue(sharedStack.isEmpty(2));
         assertNull(sharedStack.getTop(1));

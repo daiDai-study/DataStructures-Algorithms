@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/application/stack/FourArithmeticExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/SequenatialSharedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/application/stack/FourArithmeticExpressionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithmInJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructureAndAlgorithmInJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/LinearList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/LinearList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SequenatialList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SequenatialList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithRear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/linearlist/SinglyLinkedListWithoutRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithoutRear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/LinkedStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/SequenatialStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/SequenatialStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/linearlist/LinearListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/linearlist/LinearListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/stack/StackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/SequenatialSharedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/SequenatialSharedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/stack/StackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/stack/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DataStructureInJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/common/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/common/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/LinearList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SequenatialList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithRear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/linearlist/SinglyLinkedListWithoutRear.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/stack/LinkedStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/stack/SequenatialStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/DataStructureInJava.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/linearlist/LinearListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/stack/StackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -246,6 +215,7 @@
       <workItem from="1586424447284" duration="602000" />
       <workItem from="1586485283184" duration="7787000" />
       <workItem from="1586500730075" duration="13158000" />
+      <workItem from="1586742228322" duration="2019000" />
     </task>
     <servers />
   </component>

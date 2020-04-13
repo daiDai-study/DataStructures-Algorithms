@@ -1,7 +1,5 @@
 package org.daistudy.datastructure.stack;
 
-import org.omg.CORBA.Object;
-
 import java.lang.reflect.Array;
 
 public class SequenatialSharedStack<T> {
@@ -15,6 +13,13 @@ public class SequenatialSharedStack<T> {
     public SequenatialSharedStack(Class<T> type, int capacity){
         this.capacity = capacity;
         this.data = (T[]) Array.newInstance(type, capacity);
+        this.top1 = -1;
+        this.top2 = capacity;
+    }
+
+    public SequenatialSharedStack(int capacity){
+        this.capacity = capacity;
+        this.data = (T[]) new Object[capacity];
         this.top1 = -1;
         this.top2 = capacity;
     }

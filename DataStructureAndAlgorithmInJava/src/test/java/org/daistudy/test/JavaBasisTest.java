@@ -3,7 +3,7 @@ package org.daistudy.test;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Java基础语法测试")
 public class JavaBasisTest {
