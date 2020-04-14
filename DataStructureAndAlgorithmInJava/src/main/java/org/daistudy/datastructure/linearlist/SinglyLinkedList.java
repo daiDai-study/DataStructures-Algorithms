@@ -13,14 +13,14 @@ public abstract class SinglyLinkedList<T> implements LinearList<T> {
     /**
      * 头结点
      */
-    protected Node<T> head;
+    Node<T> head;
 
     /**
      * 链表长度
      */
-    protected int length;
+    int length;
 
-    public SinglyLinkedList(){
+    SinglyLinkedList(){
         this.head = null;
         this.length = 0;
     }

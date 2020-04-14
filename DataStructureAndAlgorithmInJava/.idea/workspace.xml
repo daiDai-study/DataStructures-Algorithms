@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/queue/CircylarQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/queue/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/queue/QueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/algorithm/patternmatching/KmpPatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/algorithm/patternmatching/PlainPatternMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/algorithm/patternmatching/KmpPatternMatchingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/algorithm/patternmatching/PlainPatternMatchingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/stack/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../读书笔记/数据结构与算法常见术语的中英文对照.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/数据结构与算法常见术语的中英文对照.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -76,11 +78,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.daistudy.algorithm.patternmatching" />
       <recent name="org.daistudy.datastructure.queue" />
       <recent name="org.daistudy.application.stack" />
       <recent name="org.daistudy.stack" />
       <recent name="org.daistudy.linearlist" />
-      <recent name="org.daistudy.Array" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -98,20 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueTest">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.Solution" />
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PlainPatternMatchingTest">
     <configuration name="All in DataStructureInJava" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,64 +109,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBasisTest.testSetInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KmpPatternMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.test.*" />
+          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.test" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.test.JavaBasisTest" />
-      <option name="METHOD_NAME" value="testSetInteger" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.datastructure.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.queue" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.queue.QueueTest" />
+      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testLinkedQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KmpPatternMatchingTest.getNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.datastructure.queue.*" />
+          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.queue" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.queue.QueueTest" />
-      <option name="METHOD_NAME" value="testLinkedQueue" />
+      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
+      <option name="METHOD_NAME" value="getNext" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest.testSequenatialSharedStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KmpPatternMatchingTest.indexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.datastructure.stack.*" />
+          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.stack" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.stack.StackTest" />
-      <option name="METHOD_NAME" value="testSequenatialSharedStack" />
+      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
+      <option name="METHOD_NAME" value="indexOf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlainPatternMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.PlainPatternMatchingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlainPatternMatchingTest.indexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.PlainPatternMatchingTest" />
+      <option name="METHOD_NAME" value="indexOf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueueTest" />
-        <item itemvalue="JUnit.QueueTest.testLinkedQueue" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="JUnit.StackTest.testSequenatialSharedStack" />
-        <item itemvalue="JUnit.JavaBasisTest.testSetInteger" />
+        <item itemvalue="JUnit.PlainPatternMatchingTest" />
+        <item itemvalue="JUnit.KmpPatternMatchingTest" />
+        <item itemvalue="JUnit.KmpPatternMatchingTest.indexOf" />
+        <item itemvalue="JUnit.KmpPatternMatchingTest.getNext" />
+        <item itemvalue="JUnit.PlainPatternMatchingTest.indexOf" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +220,8 @@
       <workItem from="1586424447284" duration="602000" />
       <workItem from="1586485283184" duration="7787000" />
       <workItem from="1586500730075" duration="13158000" />
-      <workItem from="1586742228322" duration="8664000" />
+      <workItem from="1586742228322" duration="11012000" />
+      <workItem from="1586830596186" duration="12073000" />
     </task>
     <servers />
   </component>
@@ -235,6 +240,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="stringBuilder.length();" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataStructureAndAlgorithmInJava$All_in_DataStructureInJava.ic" NAME="All in DataStructureInJava Coverage Results" MODIFIED="1586500814075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
