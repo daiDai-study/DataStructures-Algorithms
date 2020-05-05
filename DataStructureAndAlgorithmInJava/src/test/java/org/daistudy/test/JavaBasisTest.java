@@ -43,4 +43,22 @@ public class JavaBasisTest {
         assertEquals(0, stringBuilder.toString().indexOf('1'));
         assertEquals(0, stringBuilder.indexOf(new String(new char[]{'1'})));
     }
+
+    @DisplayName("字符串的split方法检测")
+    @Test
+     void testStringSplit(){
+        String str = "a,b,c,, "; // ["a","b","c",""," "]
+        String str1 = "a,b,c,,"; // ["a","b","c"]
+        String[] split = str.split(",");
+        System.out.println(split.length);
+    }
+
+    @DisplayName("字符串拼接")
+    @Test
+    void testStringAppend(){
+        String str = "start";
+        for (int i = 0; i < 10; i++) {
+            str = str + "hello";
+        }
+    }
 }

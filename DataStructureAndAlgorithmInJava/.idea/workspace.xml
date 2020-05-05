@@ -33,8 +33,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/softwareInstalled/apache-maven-3.6.3" />
+        <option name="mavenHome" value="D:/ProgramFiles/apache-maven-3.6.3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -65,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -91,11 +91,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlainPatternMatchingTest">
+  <component name="RunManager" selected="JUnit.JavaBasisTest.testStringAppend">
     <configuration name="All in DataStructureInJava" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaBasisTest.testStringAppend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.test" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.test.JavaBasisTest" />
+      <option name="METHOD_NAME" value="testStringAppend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaBasisTest.testStringSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.test" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.test.JavaBasisTest" />
+      <option name="METHOD_NAME" value="testStringSplit" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,22 +143,6 @@
       <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
       <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KmpPatternMatchingTest.getNext" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
-      <option name="METHOD_NAME" value="getNext" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,29 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlainPatternMatchingTest.indexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.PlainPatternMatchingTest" />
-      <option name="METHOD_NAME" value="indexOf" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JavaBasisTest.testStringAppend" />
+        <item itemvalue="JUnit.JavaBasisTest.testStringSplit" />
         <item itemvalue="JUnit.PlainPatternMatchingTest" />
         <item itemvalue="JUnit.KmpPatternMatchingTest" />
         <item itemvalue="JUnit.KmpPatternMatchingTest.indexOf" />
-        <item itemvalue="JUnit.KmpPatternMatchingTest.getNext" />
-        <item itemvalue="JUnit.PlainPatternMatchingTest.indexOf" />
       </list>
     </recent_temporary>
   </component>
