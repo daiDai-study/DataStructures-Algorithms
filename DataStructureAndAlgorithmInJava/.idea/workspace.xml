@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/algorithm/patternmatching/KmpPatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/algorithm/patternmatching/PlainPatternMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/algorithm/patternmatching/KmpPatternMatchingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/algorithm/patternmatching/PlainPatternMatchingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/test/JavaBasisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -222,6 +213,10 @@
       <workItem from="1586500730075" duration="13158000" />
       <workItem from="1586742228322" duration="11012000" />
       <workItem from="1586830596186" duration="12073000" />
+      <workItem from="1586856605535" duration="742000" />
+      <workItem from="1586911639438" duration="208000" />
+      <workItem from="1586911927488" duration="1555000" />
+      <workItem from="1586921130066" duration="1214000" />
     </task>
     <servers />
   </component>
