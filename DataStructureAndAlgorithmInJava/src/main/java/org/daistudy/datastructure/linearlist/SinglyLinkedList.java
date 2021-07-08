@@ -7,6 +7,7 @@ import java.util.Objects;
 
 /**
  * 单链表
+ *
  * @param <T>
  */
 public abstract class SinglyLinkedList<T> implements LinearList<T> {
@@ -18,12 +19,7 @@ public abstract class SinglyLinkedList<T> implements LinearList<T> {
     /**
      * 链表长度
      */
-    int length;
-
-    SinglyLinkedList(){
-        this.head = null;
-        this.length = 0;
-    }
+    int size;
 
     @Override
     public abstract boolean isEmpty();
@@ -32,63 +28,53 @@ public abstract class SinglyLinkedList<T> implements LinearList<T> {
     public abstract void clear();
 
     @Override
-    public T getElement(int serial) {
-        Util.checkSerial(serial, 1, this.length);
-        // 上述检测，保证线性表至少有一个结点，即头结点一定不会为空
-        Node<T> p = head;
-        int count = 1;
-        while(p.getNext() != null && count<serial){
-            count++;
-            p = p.getNext();
-        }
-
-        return p.getElement();
+    public T getElement(int index) {
+        Node<T> node = this.getNode(index);
+        return node != null ? node.getElement() : null;
     }
 
     @Override
-    public int getLength() {
-        return this.length;
+    public int getSize() {
+        return this.size;
     }
 
-    public int getLengthWithTraverseNextNode(){
+    public int getLengthWithTraverseNextNode() {
         Node<T> p = head;
-        int count = 0;
+        int serialTmp = 0;
         // p 一直指向下一个结点
-        while(p != null){
-            count++;
+        while (p != null) {
+            serialTmp++;
             p = p.getNext();
         }
-        return count;
+        return serialTmp;
     }
 
-    public int getLengthWithTraverseCurrentNode(){
-        if(head == null){
+    public int getLengthWithTraverseCurrentNode() {
+        if (head == null) {
             return 0;
         }
         Node<T> p = head;
-        int count = 1;
+        int serialTmp = 1;
         // p 一直指向当前结点
-        while(p.getNext() != null){
-            count++;
+        while (p.getNext() != null) {
+            serialTmp++;
             p = p.getNext();
         }
-        return count;
+        return serialTmp;
     }
 
     /**
      * 找到指定位置序号的结点
-     * @param serial 位置序号
+     *
+     * @param index 位置序号
      * @return 结点
      */
-    public Node<T> getNode(int serial){
-        if(head == null || serial < 1 || serial > this.length){
-            return null;
-        }
+    public Node<T> getNode(int index) {
+        Util.checkSerial(index, 0, this.size - 1);
         Node<T> p = head;
-        int count = 1;
-        // p 一直指向当前结点
-        while(p.getNext() != null && count < serial){
-            count++;
+        int indexTmp = 0;
+        while (p != null && indexTmp < index){
+            indexTmp++;
             p = p.getNext();
         }
         return p;
@@ -96,19 +82,19 @@ public abstract class SinglyLinkedList<T> implements LinearList<T> {
 
     @Override
     public int locateElement(T element) {
-        if (Objects.isNull(element) || this.length == 0) {
-            return 0;
+        if (Objects.isNull(element) || this.size == 0) {
+            return -1;
         }
         Node<T> p = head;
-        int count = 1;
-        while(p.getNext() != null && !element.equals(p.getElement())){
-            count++;
+        int indexTmp = 0;
+        while (p != null && !element.equals(p.getElement())) {
+            indexTmp++;
             p = p.getNext();
         }
-        if(!element.equals(p.getElement())){
-            count = 0;
+        if (p == null) {
+            indexTmp = -1;
         }
-        return count;
+        return indexTmp;
     }
 
     @Override
@@ -124,11 +110,11 @@ public abstract class SinglyLinkedList<T> implements LinearList<T> {
     public String show() {
         StringBuilder builder = new StringBuilder("[");
         Node<T> p = head;
-        while(p != null){
+        while (p != null) {
             builder.append(p.getElement()).append(",");
             p = p.getNext();
         }
-        if(head != null){
+        if (head != null) {
             builder.deleteCharAt(builder.lastIndexOf(","));
         }
         builder.append("]");

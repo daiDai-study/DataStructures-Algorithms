@@ -11,50 +11,56 @@ public class SinglyLinkedListWithRear<T> extends SinglyLinkedList<T> {
      */
     private Node<T> rear;
 
-    public SinglyLinkedListWithRear(){
+    public SinglyLinkedListWithRear() {
         this.head = this.rear = null;
-        this.length = 0;
+        this.size = 0;
     }
 
     @Override
     public boolean isEmpty() {
-        return this.length == 0;
+        return this.size == 0;
     }
 
     @Override
     public void clear() {
         this.head = this.rear = null;
-        this.length = 0;
+        this.size = 0;
     }
 
     @Override
-    public boolean insert(int serial, T element) {
+    public boolean insert(int index, T element) {
         if (Objects.isNull(element)) {
             return false;
         }
-        Util.checkSerial(serial, 1, this.length + 1);
-        Node<T> pre = this.getNode(serial - 1);
-        Node<T> cur = this.getNode(serial);
+        Util.checkSerial(index, 0, this.size);
+
+        Node<T> pre = null, cur = null;
+        if(index != 0){
+            pre = this.getNode(index - 1);
+        }
+        if(index != this.size){
+            cur = this.getNode(index);
+        }
         Node<T> node = new Node<>(element);
-        if(pre == null && cur == null){ // 空表，且插入到头结点
+        if (pre == null && cur == null) { // 空表，且插入到头结点
             node.setNext(null);
             this.head = this.rear = node;
-            this.length++;
+            this.size++;
             return true;
         }
-        if(pre == null && cur != null){ // 插入到头结点
+        if (pre == null && cur != null) { // 插入到头结点
             node.setNext(head);
             this.head = node;
-            this.length++;
+            this.size++;
             return true;
         }
-        if(pre != null){ // 插入到头结点的后驱结点或插入到链表末尾
+        if (pre != null) { // 插入到头结点的后驱结点或插入到链表末尾
             node.setNext(cur);
             pre.setNext(node);
-            if(cur == null){ // 插入到链表末尾
+            if (cur == null) { // 插入到链表末尾
                 this.rear = node;
             }
-            this.length++;
+            this.size++;
             return true;
         }
         return false;
@@ -66,43 +72,43 @@ public class SinglyLinkedListWithRear<T> extends SinglyLinkedList<T> {
             return false;
         }
         Node<T> node = new Node<>(element, null);
-        if(this.rear == null){
+        if (this.rear == null) {
             this.head = this.rear = node;
-        }else{
+        } else {
             this.rear.setNext(node);
             this.rear = node;
         }
-        this.length++;
+        this.size++;
         return true;
     }
 
     @Override
-    public T delete(int serial) {
-        Util.checkSerial(serial, 1, this.length);
+    public T delete(int index) {
+        Util.checkSerial(index, 0, this.size - 1);
         // 上述检测，保证线性表至少有一个结点，即头结点一定不会为空
         T element = null;
-        if(serial==1){
+        if (index == 0) {
             element = head.getElement();
             head = head.getNext();
-            if(serial == this.length){
+            if (index == this.size - 1) {
                 rear = null;
             }
-            this.length--;
-        }else{
+            this.size--;
+        } else {
             Node<T> pre = head;
             Node<T> p = head.getNext();
-            int count = 2;
-            while(p != null && count < serial){
+            int count = 1;
+            while (p != null && count < index) {
                 count++;
                 pre = p;
                 p = p.getNext();
             }
             element = p.getElement();
             pre.setNext(p.getNext());
-            if(serial == this.length){
-                rear = p;
+            if (index == this.size - 1) {
+                rear = pre;
             }
-            this.length--;
+            this.size--;
         }
 
         return element;

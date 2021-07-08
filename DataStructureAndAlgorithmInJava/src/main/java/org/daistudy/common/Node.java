@@ -7,7 +7,7 @@ public class Node<T> {
     private T element;
 
     /**
-     * 下一个结点（指针域）
+     * 下一个结点（指针域），直接后继结点
      */
     private Node<T> next;
 

@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb4a3eb4-eecf-4a77-917f-a71e19f8a6f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/common/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/LinearList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/LinearList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SequenatialList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SequenatialList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithRear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithoutRear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/daistudy/datastructure/linearlist/SinglyLinkedListWithoutRear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/linearlist/LinearListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/daistudy/datastructure/linearlist/LinearListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/algorithm/patternmatching/KmpPatternMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/algorithm/patternmatching/KmpPatternMatching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/algorithm/patternmatching/PlainPatternMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/algorithm/patternmatching/PlainPatternMatching.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/application/stack/FourArithmeticExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/application/stack/FourArithmeticExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/array/IntegerArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/array/IntegerArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/common/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/common/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/common/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/common/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/LinearList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/LinearList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SequenatialList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SequenatialList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedListWithRear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedListWithRear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedListWithoutRear.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/linearlist/SinglyLinkedListWithoutRear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/queue/CircylarQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/queue/CircylarQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/queue/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/queue/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/queue/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/LinkedStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/SequenatialSharedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/SequenatialSharedStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/SequenatialStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/SequenatialStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/daistudy/datastructure/stack/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/algorithm/patternmatching/KmpPatternMatchingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/algorithm/patternmatching/KmpPatternMatchingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/algorithm/patternmatching/PlainPatternMatchingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/algorithm/patternmatching/PlainPatternMatchingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/application/stack/FourArithmeticExpressionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/application/stack/FourArithmeticExpressionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/array/IntegerArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/array/IntegerArrayTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/datastructure/linearlist/LinearListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/datastructure/linearlist/LinearListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/datastructure/queue/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/datastructure/queue/QueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/datastructure/stack/StackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/datastructure/stack/StackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/daistudy/test/JavaBasisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/../读书笔记/大话数据结构/大话数据结构-读书笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JavaBasisTest.testStringAppend">
+  <component name="RunManager" selected="JUnit.LinearListTest.test">
     <configuration name="All in DataStructureInJava" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <option name="PACKAGE_NAME" value="" />
@@ -100,91 +136,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBasisTest.testStringAppend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinearListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.test.*" />
+          <option name="PATTERN" value="org.daistudy.datastructure.linearlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.test" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.test.JavaBasisTest" />
-      <option name="METHOD_NAME" value="testStringAppend" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaBasisTest.testStringSplit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.test" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.test.JavaBasisTest" />
-      <option name="METHOD_NAME" value="testStringSplit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KmpPatternMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructureAndAlgorithmInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.linearlist.LinearListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KmpPatternMatchingTest.indexOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinearListTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
+          <option name="PATTERN" value="org.daistudy.datastructure.linearlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.KmpPatternMatchingTest" />
-      <option name="METHOD_NAME" value="indexOf" />
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlainPatternMatchingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinearListTest.testGetNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructureAndAlgorithmInJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.daistudy.algorithm.patternmatching.*" />
+          <option name="PATTERN" value="org.daistudy.datastructure.linearlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.daistudy.algorithm.patternmatching" />
-      <option name="MAIN_CLASS_NAME" value="org.daistudy.algorithm.patternmatching.PlainPatternMatchingTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testGetNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearListTest.testSinglyLinkedListInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.datastructure.linearlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testSinglyLinkedListInteger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinearListTest.testSinglyLinkedListWithRearInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructureAndAlgorithmInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.daistudy.datastructure.linearlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.daistudy.datastructure.linearlist" />
+      <option name="MAIN_CLASS_NAME" value="org.daistudy.datastructure.linearlist.LinearListTest" />
+      <option name="METHOD_NAME" value="testSinglyLinkedListWithRearInteger" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JavaBasisTest.testStringAppend" />
-        <item itemvalue="JUnit.JavaBasisTest.testStringSplit" />
-        <item itemvalue="JUnit.PlainPatternMatchingTest" />
-        <item itemvalue="JUnit.KmpPatternMatchingTest" />
-        <item itemvalue="JUnit.KmpPatternMatchingTest.indexOf" />
+        <item itemvalue="JUnit.LinearListTest.test" />
+        <item itemvalue="JUnit.LinearListTest" />
+        <item itemvalue="JUnit.LinearListTest.testGetNode" />
+        <item itemvalue="JUnit.LinearListTest.testSinglyLinkedListWithRearInteger" />
+        <item itemvalue="JUnit.LinearListTest.testSinglyLinkedListInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +255,10 @@
       <workItem from="1586911927488" duration="1555000" />
       <workItem from="1586921130066" duration="1214000" />
       <workItem from="1589425286145" duration="608000" />
+      <workItem from="1602576771180" duration="4938000" />
+      <workItem from="1602659112207" duration="5536000" />
+      <workItem from="1603333444580" duration="1395000" />
+      <workItem from="1603416741935" duration="49000" />
     </task>
     <servers />
   </component>
